@@ -1,0 +1,8 @@
+.ydqcarousel{position:relative;width:1200px;height:538px;margin:0 auto;overflow: hidden;}
+.ydqcarousel ul{list-style:none;padding:0;margin:0;position:absolute;top:0;left:0;}
+.ydqcarousel img{display: block;}
+.ydqcarousel .next,.ydqcarousel .prev{position:absolute;left:0;top:50%;transform: translate(0,-50%);padding:10px 5px;width:30px;height:50px;line-height:50px;background-color: rgba(0,0,0,.3);text-align:center;color:#fff;}
+.ydqcarousel .next{left:auto;right:0;}
+.ydqcarousel .page{position: absolute;right:550px;bottom:15px;}
+.ydqcarousel .page span{display:inline-block;margin:0 5px;width:10px;height:10px;line-height:10px;text-align:center;background-color:#efefef;border-radius:50%;}
+.ydqcarousel .page span.active{background-color:#f60;color:#fff;}

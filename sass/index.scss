@@ -1,0 +1,430 @@
+//搜索吸顶效果
+.fixed{position:fixed;top:0;left:0;right:0;z-index:99999;}
+
+//头部
+#header{
+    width: 1280px;
+    .header_top{
+        background: #f2f2f2;
+        .container{
+            height: 32px;
+            border-bottom:1px solid #f2f2f2;
+            font-size:12px;
+            line-height:32px;
+            p{
+                a{
+                    color:#EC3E7D;
+                    text-decoration:underline;
+                }
+            }
+            ul{
+                li{
+                    &:hover {
+                        background: #fff;
+                    }
+                    a{
+                        span{
+                            color:#6C6C80;
+                            padding:0 12px;
+                        }
+                        .weibo{
+                            background:url(../img/arror_weibo.png) no-repeat;
+                            width: 14px;
+                            height: 12px;
+                            position:relative;
+
+                            img{
+                                display:none;
+                                position:absolute;
+                                right:-50px;
+                                top:25px;
+                            }
+                            &:hover{
+                                img{
+                                    display:block;
+                                }
+                            }
+                        }
+                        .wechat{
+                            background:url(../img/arror_wechat.png) no-repeat;
+                            width: 14px;
+                            height: 12px;
+                            position:relative;
+                            img{
+                                display:none;
+                                position:absolute;
+                                right:-25px;
+                                top:25px;
+                            }
+                            &:hover{
+                                img{
+                                    display:block;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .header_search{
+        h1{
+            background:url(../img/logo.jpg) no-repeat;
+            text-indent:-10000px;
+            height: 95px;
+            width: 400px;
+        }
+        .search{
+            width: 436px;
+            input{
+                width: 340px;
+                height: 30px;
+                border:3px solid #EC3E7D;
+                border-right:0 none;
+                margin-top:22px;
+            }
+            button{
+                height: 36px;
+                background:#EC3E7D;
+                color:#fff;
+                width: 93px;
+                margin-top:22px;
+            }
+            ul{
+                li{
+                    a{
+                        span{
+                            color:#9999A5;
+                            padding:0 14px;
+                            font-size:12px;
+                            border-right:1px solid #9999A5;
+                            line-height:30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//导航条
+#nav{
+    .container{
+        position:relative;
+    }
+    p{
+        width: 190px;
+        background-color:#333333;
+        color:#fff;
+        font-size:14px;
+        text-align:center;
+        font-weight:bold;
+        line-height:36px;
+        background-image:url('../img/nav0.png');
+        background-repeat:no-repeat;
+        background-position:16px 4px;
+    }
+    .ulNav2{
+            position:absolute;
+            top:36px;
+            left:0px;
+            width: 190px;
+            background:#FA3778;
+            z-index:99999;
+            li{
+                a{
+                    color:#fff;
+                    font-size:14px;
+                    padding-left:40px;
+                    line-height:52px;
+                    display:block;
+                    background:url('../img/nav1.png') no-repeat;
+                    background-position:10px 16px;
+                    border-bottom:1px dashed #ccc;
+                }
+                &:hover a{
+                    background:#fff;
+                    color:#000;
+
+                }
+                .a2{
+                    background:url('../img/nav2.png') no-repeat;
+                    background-position:10px 16px;
+                }
+                .a3{
+                    background:url('../img/nav3.png') no-repeat;
+                    background-position:10px 16px;
+                }
+                .a4{
+                    background:url('../img/nav4.png') no-repeat;
+                    background-position:10px 16px;
+                }
+                .a5{
+                    background:url('../img/nav5.png') no-repeat;
+                    background-position:10px 16px;
+                }
+                .a6{
+                    background:url('../img/nav6.png') no-repeat;
+                    background-position:10px 16px;
+                }
+                .a7{
+                    background:url('../img/nav7.png') no-repeat;
+                    background-position:10px 16px;
+                }
+                .a8{
+                    background:url('../img/nav8.png') no-repeat;
+                    background-position:10px 16px;
+                }
+            }
+            .nav3{
+                display:none;
+                position:absolute;
+                width: 788px;
+                background:#fff;
+                height: 397px;
+                left:190px;
+                top:2px;
+                border-bottom:1px solid #ddd;
+                padding-top:12px;
+                border-right:1px solid #ddd;
+                dl{
+                    border-bottom:1px dashed #eee;
+                    padding-left:30px;
+                }
+                dt{
+                    float:left;
+                    font-size:12px;
+                    font-weight:bold;
+                    color:#000;
+                    line-height:39px;
+                }
+                dd{
+                    float:left;
+                }
+                a{
+                    color:#666;
+                    font-size:12px;
+                    line-height:39px;
+                    padding:0 12px;
+                    span{
+                        color:#FF3D3D;
+                    }
+                    &:hover{
+                        text-decoration:underline;
+                        color:#FF3D3D;
+                    }
+                }
+            }
+            &:hover .nav3{
+                display:block;
+            }
+        }
+    .ulNav{
+        a{
+            color:#151515;
+            font-size:14px;
+            font-weight:bold;
+            padding:0 20px;
+            line-height:38px;
+            &:hover{
+                color:#FF3D3D;
+            }
+        }
+    }
+}
+
+//轮播图
+#banner ul{list-style: none;padding:0;margin:0;position:absolute;}
+#banner .focus img{display: block;width: 1280px;height: 440px;}
+#banner .focus{position:relative;width:1280px;height:422px;overflow:hidden;}
+#banner .focus .page{position:absolute;right:0;bottom:0;padding:10px;}
+#banner .focus .page span{display:inline-block;margin:0 5px;width:30px;height:30px;line-height:30px;background-color:rgba(0,0,0,.6);text-align:center;color:#fff;border-radius: 50%;box-shadow:0 0 10px rgba(0,0,0,.5);}
+#banner .focus .page span.active{background-color: rgba(255,0,0,.8);}
+
+
+
+#main{
+    background:#F2F2F2;
+    .container{
+        .sasa_promise{
+            height: 100%;
+            .sasa_promise_0{
+                width: 182px;
+                height: 120px;
+                margin-right:58px;
+                img{
+                    width: 32px;
+                    height: 32px;
+                    margin-top:38px;
+                }
+            }
+        }
+        .sasa_promise_subtit{
+            font-size:13px;
+            color:#999999;
+            margin-top:4px;
+            width: 100%;
+            height: 22px;
+            overflow:hidden;
+            white-space:nowrap;
+        }
+        .sasa_promise_content{
+            padding-top:38px;
+            padding-left:14px;
+        }
+        .sasa_promise_title{
+            font-size:18px;
+            color:#222;
+            width: 100%;
+            height: 22px;
+            overflow:hidden;
+            white-space:nowrap;
+            text-overflow:ellipsis;
+        }
+        .sasa_mustcheck{
+            width: 1200px;
+            .sasa_mustcheck_head{
+                height: 26px;
+                margin:10px 0 26px 0;
+                background:url(../img/meiribikan.png) no-repeat;
+        }
+        ul{
+                 li{
+                    margin-top:26px;
+                    width: 580px;
+                    margin-right:18px;
+                    margin-bottom:18px;
+                    div{
+                        width: 222px;
+                        background: #fff;
+                        height: 260px;
+                        a{
+                            width: 222px;
+                            button{
+                                width: 108px;
+                                height: 32px;
+                                background:#E93B78;
+                                color:#fff;
+                                margin:44px 0 0 57px;
+                            }
+                        }      
+                    }
+                    .p1{
+                        text-align:center;
+                        font-size:22px;
+                        margin-top:60px;
+                        color:#e93b78;
+                    }
+                    .p2{
+                        text-align:center;
+                        font-size:16px;
+                        color:#5A5A5A;
+                        margin-top:17px;
+                    }
+                    .p3{
+                        text-align:center;
+                        font-size:12px;
+                        color:#5A5A5A;
+                        margin-top:10px;
+                    }
+                }    
+            }     
+        }
+    }
+}
+
+
+#news{
+    .container{
+        border-bottom:1px solid #ccc;
+        .sasa_promise{
+            height: 100%;
+            .sasa_promise_0{
+                width: 182px;
+                height: 120px;
+                margin-right:58px;
+                img{
+                    width: 32px;
+                    height: 32px;
+                    margin-top:38px;
+                }
+            }
+            .sasa_promise_subtit{
+                font-size:13px;
+                color:#999999;
+                margin-top:4px;
+                width: 100%;
+                height: 22px;
+                overflow:hidden;
+                white-space:nowrap;
+            }
+            .sasa_promise_content{
+                padding-top:38px;
+                padding-left:14px;
+            }
+            .sasa_promise_title{
+                font-size:18px;
+                color:#222;
+                width: 100%;
+                height: 22px;
+                overflow:hidden;
+                white-space:nowrap;
+                text-overflow:ellipsis;
+            }
+        }
+    }
+}
+
+#links{
+    height:200px;
+    .container{
+        .links_info{
+            width: 90px;
+            margin:16px 90px 0 0;
+            dl{
+                line-height:2em;
+                dt{
+                    font-size:15px;
+                    font-weight:bold;
+                }
+                dd{
+                    font-size:12px;
+                    line-height:2em;
+                    color:#3e3e3e;
+                }
+            }
+        }
+        .links_w{
+            margin-top:16px;
+            text-align:center;
+            width: 128px;
+            p{
+                font-size:12px;
+                font-weight:bold;
+                color:#111111;
+                line-height: 2em;
+            }
+        }
+    }
+}
+
+#footer{
+    background:#000;
+    .container{
+        padding:26px 0;
+        li{
+            a{
+                span{
+                    padding:1px 15px;
+                    font-size:12px;
+                    color:#fff;
+                    border-right:1px solid #fff;
+                }
+            }
+        }
+        p{
+            font-size:12px;
+            color:#fff;
+            padding:20px 0 0 15px;
+        }
+    }
+}
