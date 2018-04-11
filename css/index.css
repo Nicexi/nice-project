@@ -6,68 +6,64 @@
   z-index: 99999;
 }
 
-#header {
-  width: 1280px;
-}
-
 #header .header_top {
   background: #f2f2f2;
 }
 
-#header .header_top .container {
+#header .header_top .sasa_header {
   height: 32px;
   border-bottom: 1px solid #f2f2f2;
   font-size: 12px;
   line-height: 32px;
 }
 
-#header .header_top .container p a {
+#header .header_top .sasa_header p a {
   color: #EC3E7D;
   text-decoration: underline;
 }
 
-#header .header_top .container ul li:hover {
+#header .header_top .sasa_header ul li:hover {
   background: #fff;
 }
 
-#header .header_top .container ul li a span {
+#header .header_top .sasa_header ul li a span {
   color: #6C6C80;
   padding: 0 12px;
 }
 
-#header .header_top .container ul li a .weibo {
+#header .header_top .sasa_header ul li a .weibo {
   background: url(../img/arror_weibo.png) no-repeat;
   width: 14px;
   height: 12px;
   position: relative;
 }
 
-#header .header_top .container ul li a .weibo img {
+#header .header_top .sasa_header ul li a .weibo img {
   display: none;
   position: absolute;
   right: -50px;
   top: 25px;
 }
 
-#header .header_top .container ul li a .weibo:hover img {
+#header .header_top .sasa_header ul li a .weibo:hover img {
   display: block;
 }
 
-#header .header_top .container ul li a .wechat {
+#header .header_top .sasa_header ul li a .wechat {
   background: url(../img/arror_wechat.png) no-repeat;
   width: 14px;
   height: 12px;
   position: relative;
 }
 
-#header .header_top .container ul li a .wechat img {
+#header .header_top .sasa_header ul li a .wechat img {
   display: none;
   position: absolute;
   right: -25px;
   top: 25px;
 }
 
-#header .header_top .container ul li a .wechat:hover img {
+#header .header_top .sasa_header ul li a .wechat:hover img {
   display: block;
 }
 
