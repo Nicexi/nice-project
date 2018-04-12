@@ -1,3 +1,131 @@
+#nav{
+    .container{
+        position:relative;
+    }
+    .sasa_fenlei{
+        width: 190px;
+        background-color:#333333;
+        color:#fff;
+        font-size:14px;
+        text-align:center;
+        font-weight:bold;
+        line-height:36px;
+        background-image:url('../img/nav0.png');
+        background-repeat:no-repeat;
+        background-position:16px 4px;
+        &:hover .ulNav2{
+            display:block;
+        }
+    }
+    .ulNav2{
+            position:absolute;
+            top:36px;
+            left:0px;
+            width: 190px;
+            background:#FA3778;
+            z-index:99999;
+            display:none;
+            li{
+                a{
+                    color:#fff;
+                    font-size:14px;
+                    padding-left:40px;
+                    line-height:52px;
+                    display:block;
+                    background:url('../img/nav1.png') no-repeat;
+                    background-position:10px 16px;
+                    border-bottom:1px dashed #ccc;
+                }
+                &:hover a{
+                    background:#fff;
+                    color:#000;
+
+                }
+                .a2{
+                    background:url('../img/nav2.png') no-repeat;
+                    background-position:10px 16px;
+                }
+                .a3{
+                    background:url('../img/nav3.png') no-repeat;
+                    background-position:10px 16px;
+                }
+                .a4{
+                    background:url('../img/nav4.png') no-repeat;
+                    background-position:10px 16px;
+                }
+                .a5{
+                    background:url('../img/nav5.png') no-repeat;
+                    background-position:10px 16px;
+                }
+                .a6{
+                    background:url('../img/nav6.png') no-repeat;
+                    background-position:10px 16px;
+                }
+                .a7{
+                    background:url('../img/nav7.png') no-repeat;
+                    background-position:10px 16px;
+                }
+                .a8{
+                    background:url('../img/nav8.png') no-repeat;
+                    background-position:10px 16px;
+                }
+            }
+            .nav3{
+                display:none;
+                position:absolute;
+                width: 788px;
+                background:#fff;
+                height: 397px;
+                left:190px;
+                top:2px;
+                border-bottom:1px solid #ddd;
+                padding-top:12px;
+                border-right:1px solid #ddd;
+                dl{
+                    border-bottom:1px dashed #eee;
+                    padding-left:30px;
+                }
+                dt{
+                    float:left;
+                    font-size:12px;
+                    font-weight:bold;
+                    color:#000;
+                    line-height:39px;
+                }
+                dd{
+                    float:left;
+                }
+                a{
+                    color:#666;
+                    font-size:12px;
+                    line-height:39px;
+                    padding:0 12px;
+                    span{
+                        color:#FF3D3D;
+                    }
+                    &:hover{
+                        text-decoration:underline;
+                        color:#FF3D3D;
+                    }
+                }
+            }
+            &:hover .nav3{
+                display:block;
+            }
+        }
+    .ulNav{
+        a{
+            color:#151515;
+            font-size:14px;
+            font-weight:bold;
+            padding:0 20px;
+            line-height:38px;
+            &:hover{
+                color:#FF3D3D;
+            }
+        }
+    }
+}
 #goodlist{
     .boxtop{
         padding:14px 10px;
