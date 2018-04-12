@@ -6,6 +6,10 @@
   z-index: 99999;
 }
 
+#header {
+  width: 100%;
+}
+
 #header .header_top {
   background: #f2f2f2;
 }

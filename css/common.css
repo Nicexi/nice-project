@@ -1,0 +1,120 @@
+#header {
+  width: 100%;
+}
+
+#header .header_top {
+  background: #f2f2f2;
+}
+
+#header .header_top .sasa_header {
+  height: 32px;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 12px;
+  line-height: 32px;
+}
+
+#header .header_top .sasa_header p a {
+  color: #EC3E7D;
+  text-decoration: underline;
+}
+
+#header .header_top .sasa_header ul li:hover {
+  background: #fff;
+}
+
+#header .header_top .sasa_header ul li a span {
+  color: #6C6C80;
+  padding: 0 12px;
+}
+
+#header .header_top .sasa_header ul li a .weibo {
+  background: url(../img/arror_weibo.png) no-repeat;
+  width: 14px;
+  height: 12px;
+  position: relative;
+}
+
+#header .header_top .sasa_header ul li a .weibo img {
+  display: none;
+  position: absolute;
+  right: -50px;
+  top: 25px;
+}
+
+#header .header_top .sasa_header ul li a .weibo:hover img {
+  display: block;
+}
+
+#header .header_top .sasa_header ul li a .wechat {
+  background: url(../img/arror_wechat.png) no-repeat;
+  width: 14px;
+  height: 12px;
+  position: relative;
+}
+
+#header .header_top .sasa_header ul li a .wechat img {
+  display: none;
+  position: absolute;
+  right: -25px;
+  top: 25px;
+}
+
+#header .header_top .sasa_header ul li a .wechat:hover img {
+  display: block;
+}
+
+#header .header_search h1 {
+  background: url(../img/logo.jpg) no-repeat;
+  text-indent: -10000px;
+  height: 95px;
+  width: 400px;
+}
+
+#header .header_search .search {
+  width: 436px;
+}
+
+#header .header_search .search input {
+  width: 340px;
+  height: 30px;
+  border: 3px solid #EC3E7D;
+  border-right: 0 none;
+  margin-top: 22px;
+}
+
+#header .header_search .search button {
+  height: 36px;
+  background: #EC3E7D;
+  color: #fff;
+  width: 93px;
+  margin-top: 22px;
+}
+
+#header .header_search .search ul li a span {
+  color: #9999A5;
+  padding: 0 14px;
+  font-size: 12px;
+  border-right: 1px solid #9999A5;
+  line-height: 30px;
+}
+
+#footer {
+  background: #000;
+}
+
+#footer .container {
+  padding: 26px 0;
+}
+
+#footer .container li a span {
+  padding: 1px 15px;
+  font-size: 12px;
+  color: #fff;
+  border-right: 1px solid #fff;
+}
+
+#footer .container p {
+  font-size: 12px;
+  color: #fff;
+  padding: 20px 0 0 15px;
+}

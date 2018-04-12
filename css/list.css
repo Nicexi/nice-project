@@ -1,0 +1,182 @@
+#goodlist .boxtop {
+  padding: 14px 10px;
+  border-top: 3px solid #987144;
+  border-bottom: 1px solid #ccc;
+}
+
+#goodlist .boxtop ul {
+  float: left;
+  position: relative;
+}
+
+#goodlist .boxtop ul img {
+  position: absolute;
+  right: 4px;
+  top: 6px;
+}
+
+#goodlist .boxtop ul li {
+  float: left;
+  font-size: 12px;
+  line-height: 26px;
+  color: #666;
+}
+
+#goodlist .boxtop ul li input {
+  border: 1px solid #999;
+  height: 22px;
+  border-radius: 3px;
+}
+
+#goodlist .boxtop p {
+  float: right;
+  color: #666;
+  font-size: 12px;
+}
+
+#goodlist .boxsort {
+  padding: 20px 0;
+}
+
+#goodlist .boxsort .dl_left {
+  float: left;
+  font-size: 12px;
+  text-align: center;
+  line-height: 36px;
+}
+
+#goodlist .boxsort .dl_left dt {
+  float: left;
+  height: 36px;
+  width: 78px;
+  color: #fff;
+  background: #C01133;
+}
+
+#goodlist .boxsort .dl_left dd {
+  float: left;
+  width: 68px;
+  height: 34px;
+  color: #666;
+  border: 1px solid #999;
+  border-left: 0 none;
+  background-color: #F8F8F8;
+  background-position: 50px 7px;
+  background-repeat: no-repeat;
+}
+
+#goodlist .boxsort .dl_left .dd1 {
+  background-image: url("../img/sort1.png");
+}
+
+#goodlist .boxsort .dl_left .dd2 {
+  background-image: url("../img/sort2.png");
+}
+
+#goodlist .boxsort .dl_left .dd3 {
+  background-image: url("../img/sort3.png");
+}
+
+#goodlist .boxsort .box_center {
+  height: 26px;
+  border: 1px solid #999;
+  background: #F8F8F8;
+  padding: 4px 4px;
+  margin-left: 10px;
+}
+
+#goodlist .boxsort .box_center input {
+  width: 68px;
+  border: 1px solid #999;
+  height: 24px;
+  font-size: 12px;
+}
+
+#goodlist .boxsort .ul_right {
+  padding-left: 10px;
+  height: 34px;
+  border: 1px solid #999;
+  line-height: 34px;
+  background: #F8F8F8;
+  font-size: 12px;
+  color: #666;
+  width: 643px;
+}
+
+#goodlist .boxsort .ul_right span {
+  color: #2E3385;
+}
+
+#goodlist .boxsort .ul_right i {
+  float: right;
+  display: block;
+  width: 22px;
+  height: 22px;
+  background: #EEE;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 5px;
+  margin-right: 5px;
+  border: 1px solid #999;
+  font-weight: bold;
+}
+
+#goodlist .boxsort .ul_right li {
+  padding-right: 23px;
+}
+
+#goodlist .list {
+  padding-bottom: 90px;
+}
+
+#goodlist .list ul li {
+  border: 1px solid #ddd;
+  height: 294px;
+  width: 227px;
+  float: left;
+  margin: 4px;
+}
+
+#goodlist .list ul li:hover {
+  border-color: #D90000;
+}
+
+#goodlist .list ul li a {
+  display: block;
+  width: 227px;
+  height: 224px;
+}
+
+#goodlist .list ul li h1 {
+  color: #E9133C;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 16px;
+}
+
+#goodlist .list ul li h2 {
+  font-size: 14px;
+  color: #333;
+  padding-left: 16px;
+}
+
+#goodlist .list ul li h3 {
+  font-size: 14px;
+  color: #FFB77E;
+  padding-left: 16px;
+}
+
+#goodlist #page span {
+  display: inline-block;
+  margin: 5px;
+  width: 40px;
+  line-height: 1.8;
+  text-align: center;
+  background-color: #dfdfdf;
+  color: #666;
+}
+
+#goodlist #page span.active {
+  background-color: #fc0;
+  color: #fff;
+}

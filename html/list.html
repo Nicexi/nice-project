@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>list</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/list.css" />
+    <link rel="stylesheet" type="text/css" href="../css/common.css" />
+<!--     <link rel="stylesheet" type="text/css" href="../foot.css" /> -->
+    <script type="text/javascript" src="../js/require.js" data-main="../js/list"></script>
+</head>
+<body>
+    <header id="pageheader"></header>
+    <div id="goodlist">
+        <div class="container">
+            <div class="boxtop clearfix">
+                <ul class="clearfix">
+                    <img src="../img/search.png">
+                    <li>首页 ></li>
+                    <li>家居餐厨 ></li>
+                    <li><input type="text" placeholder="在当前条件下搜索"></li>
+                </ul>
+                <p>共找到10086件商品</p>
+            </div>
+            <div class="boxsort clearfix">
+                <dl class="dl_left clearfix">
+                    <dt>综合排序</dt>
+                    <dd class="dd1" id="sortD-X">价格</dd>
+                    <dd class="dd2" id="sortX-D">价格</dd>
+                    <dd class="dd3">评论</dd>
+                    <dd>新品</dd>
+                </dl>
+                <div class="box_center fl">
+                    <input type="text" placeholder="￥最低价">-
+                    <input type="text" placeholder="￥最高价">
+                </div>
+                <ul class="ul_right fr clearfix">
+                    <li class="fl"><input type="checkbox">仅看有货</li>
+                    <li class="fl"><input type="checkbox">自营</li>
+                    <li class="fl"><input type="checkbox"><span>跨境商品</span></li>
+                    <li class="fl"><input type="checkbox">促销</li>
+                    <li class="fl"><input type="checkbox">支持自提</li>
+                    <i>></i>
+                </ul>
+            </div>
+            <div class="list" id="datalist">
+                <ul class="clearfix" id="list_ul">
+                </ul>
+            </div>
+            <div id="page"></div>
+        </div>
+    </div>
+    <footer id="pagefooter"></footer>
+</body>
+</html>
