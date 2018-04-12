@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>reg</title>
+    <link rel="stylesheet" type="text/css" href="../css/reg.css" />
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/common.css" />
+    <script type="text/javascript" src="../lib/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="../js/reg.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+</head>
+<body>
+    <header id="pageheader"></header>
+    <div id="reg">
+        <div class="container">
+            <div class="clearfix boxtop">
+    <link rel="stylesheet" type="text/css" href="../css/bsae.css" />
+                <h1>注册帐号</h1>
+                <h2>如有帐号,请点击<a href="login.html">登录</a></h2>
+            </div>
+            <form class="clearfix">
+                <div class="Rcode"></div>
+                <label for="username"><span>*</span>用户名:</label>
+                <input type="text" id="username" placeholder="6-20为字符,支持字母或字母与数字组合" class="int"><br />
+                <label for="password"><span>*</span>登录密码:</label>
+                <input type="password" id="password" placeholder="8-20位字符" class="int"><br />
+                <label for="passWord"><span>*</span>确认密码:</label>
+                <input type="password" id="passWord" placeholder="请再次输入密码" class="int"><br />
+                <label for="phone"><span>*</span>手机号:</label>
+                <input type="text" id="phone" placeholder="请输入11位手机号" class="int"><br />
+                <label for="code">验证码:</label>
+                <input type="text" id="code" placeholder="请输入验证码" class="int"><br />
+                <label for="node"><span>*</span>短信验证码</label>
+                <input type="text" id="node" placeholder="请输入短信验证码" class="int"><br />
+                <label for="email">电子邮箱:</label>
+                <input type="text" id="email" placeholder="请输入有效邮箱" class="int"><br />
+                <input type="checkbox" class="int0"><span class="span0">我已阅读并同意</span><span class="span1">《百联通会员注册协议》</span><br />
+                <div id="btn">立即注册 完成绑定</div>
+            </form>
+        </div>
+    </div>
+    <footer id="pagefooter"></footer>
+</body>
+</html>

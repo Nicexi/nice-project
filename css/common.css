@@ -65,6 +65,7 @@
 
 #header .header_search h1 {
   background: url(../img/logo.jpg) no-repeat;
+  background-position:0 22px;
   text-indent: -10000px;
   height: 95px;
   width: 400px;

@@ -1,0 +1,130 @@
+#reg {
+  padding-top: 50px;
+  background: #f3f3f3;
+}
+
+#reg .danger {
+  border: 1px solid red !important;
+}
+
+#reg .container .boxtop {
+  background: #fff;
+  padding: 0 20px;
+  border: 1px solid #E1DFDA;
+}
+
+#reg .container .boxtop h1 {
+  color: #FF002A;
+  line-height: 50px;
+  font-size: 16px;
+  float: left;
+}
+
+#reg .container .boxtop h2 {
+  color: #63625D;
+  font-size: 12px;
+  line-height: 50px;
+  float: right;
+}
+
+#reg .container .boxtop h2 a {
+  color: #0088CC;
+}
+
+#reg .container form {
+  position: relative;
+  padding: 0 395px;
+  border: 1px solid #E1DFDA;
+  border-top: 0 none;
+  padding-top: 40px;
+  background: #fff;
+  padding-bottom: 72px;
+}
+
+#reg .container form .Rcode {
+  position: absolute;
+  top: 295px;
+  right: 341px;
+  color: #FF6F6F;
+  font-weight: bold;
+}
+
+#reg .container form #btn {
+  background: #E6133C;
+  color: #fff;
+  font-size: 14px;
+  line-height: 35px;
+  font-weight: bold;
+  width: 300px;
+  margin-left: 96px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#reg .container form span {
+  color: #E6133C;
+}
+
+#reg .container form .int {
+  float: right;
+  width: 270px;
+  height: 35px;
+  margin-top: 20px;
+  border: 1px solid #E1DFDA;
+  padding-left: 30px;
+  background: url("../img/reg1.png") no-repeat;
+  background-position: 3px 2px;
+}
+
+#reg .container form .int0 {
+  margin-left: 96px;
+  line-height: 34px;
+}
+
+#reg .container form .span0 {
+  font-size: 14px;
+  color: #666;
+  margin-left: 18px;
+  margin-right: 12px;
+  line-height: 34px;
+}
+
+#reg .container form .span1 {
+  color: #0088CA;
+  font-size: 14px;
+  line-height: 34px;
+}
+
+#reg .container form label {
+  width: 90px;
+  float: left;
+  text-align: right;
+  font-size: 14px;
+  line-height: 37px;
+  color: #333333;
+  margin-top: 20px;
+}
+
+#reg .container form #password {
+  background-image: url("../img/reg2.png");
+}
+
+#reg .container form #passWord {
+  background-image: url("../img/reg3.png");
+}
+
+#reg .container form #phone {
+  background-image: url("../img/reg4.png");
+}
+
+#reg .container form #code {
+  background-image: url("../img/reg5.png");
+}
+
+#reg .container form #node {
+  background-image: url("../img/reg6.png");
+}
+
+#reg .container form #email {
+  background-image: url("../img/reg7.png");
+}
