@@ -4,14 +4,14 @@
   left: 0;
   right: 0;
   z-index: 99999;
+  background: #fff;
+  z-index: 99999;
 }
 
 #header {
   width: 100%;
-}
-
-#header .header_top {
   background: #f2f2f2;
+  border-bottom: 1px solid #ccc;
 }
 
 #header .header_top .sasa_header {
@@ -24,6 +24,24 @@
 #header .header_top .sasa_header p a {
   color: #EC3E7D;
   text-decoration: underline;
+}
+
+#header .header_top .sasa_header ul .my_account:hover div {
+  display: block;
+}
+
+#header .header_top .sasa_header ul .my_account div {
+  width: 86px;
+  border: 1px solid #ccc;
+  position: absolute;
+  display: none;
+  background: #fff;
+  z-index: 10;
+  padding: 5px 10px 10px 10px;
+}
+
+#header .header_top .sasa_header ul .my_account div a:hover span {
+  color: red;
 }
 
 #header .header_top .sasa_header ul li:hover {
@@ -71,7 +89,7 @@
   display: block;
 }
 
-#header .header_search h1 {
+.header_search h1 {
   background: url(../img/logo.jpg) no-repeat;
   text-indent: -10000px;
   background-position: 0 22px;
@@ -79,11 +97,11 @@
   width: 400px;
 }
 
-#header .header_search .search {
+.header_search .search {
   width: 436px;
 }
 
-#header .header_search .search input {
+.header_search .search input {
   width: 340px;
   height: 30px;
   border: 3px solid #EC3E7D;
@@ -91,7 +109,7 @@
   margin-top: 22px;
 }
 
-#header .header_search .search button {
+.header_search .search button {
   height: 36px;
   background: #EC3E7D;
   color: #fff;
@@ -99,7 +117,7 @@
   margin-top: 22px;
 }
 
-#header .header_search .search ul li a span {
+.header_search .search ul li a span {
   color: #9999A5;
   padding: 0 14px;
   font-size: 12px;

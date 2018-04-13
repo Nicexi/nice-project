@@ -17,7 +17,6 @@ require(['config'],function(){
             let xhr = new XMLHttpRequest();
             xhr.onload = ()=>{
                 if(arr_status.indexOf(xhr.status)!=-1){
-                    // console.log(xhr.responseText);
                     let res = JSON.parse(xhr.responseText);
                     console.log(res);
                     var list_ul = document.querySelector('#list_ul');
@@ -48,7 +47,7 @@ require(['config'],function(){
                                 </a>
                                 <h1>￥${items.price}</h1>
                                 <h2>${items.name}</h2>
-                                <h3>2月6至2月28日购买此商品的订...</h3>
+                                <button>加入购物车</button>
                             </li>
                         `
                         }).join('');

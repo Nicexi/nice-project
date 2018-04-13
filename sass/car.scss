@@ -1,0 +1,124 @@
+#car{
+    border-top:1px solid #ddd;
+    .box_top{
+        border-bottom:1px solid #ddd;
+        h1{
+            color:#333;
+            border-bottom:2px solid #333;
+            float:left;
+            padding-top:27px;
+            font-weight:bold;
+            font-size:16px;
+            span{
+                color:#E9133C;
+            }
+        }
+        p{
+            line-height:50px;
+            float:right;
+            font-size:12px;
+            select{
+                width: 144px;
+                height: 26px;
+                margin-left:12px;
+                font-size:12px;
+            }
+        }
+    }
+    .box_che{
+        line-height:50px;
+        font-size:12px;
+        color:#333;
+        padding-left:14px;
+        border-bottom:1px solid #ddd;
+        li{
+            margin-right:82px;
+        }
+    }
+    .box_main{
+        border-bottom:1px solid #ddd;
+        ul{
+            padding-right:30px;
+        }
+        li{
+            height: 82px;
+            padding:14px 40px;
+            background:#FFFAF1;
+            border-bottom:1px dashed #ccc;
+            img{
+                height: 80px;
+                width: 80px;
+                border:1px solid #ddd;
+                float:left;
+            }
+            p{
+                width: 200px;
+                font-size:12px;
+                float:left;
+                margin-left:10px;
+                text-indent:2em;
+                color:#333;
+            }
+            span{
+                float:right;
+                line-height:80px;
+                color:#000;
+                font-size:12px;
+            }
+            input{
+                float:right;
+                border:1px solid #ddd;
+                height: 22px;
+                width: 70px;
+                margin-top:28px;
+                margin-left:66px;
+            }
+            i{
+                float:right;
+                line-height:80px;
+                color:#D62233;
+                font-weight:bold;
+                font-size:12px;
+                margin-left:45px;
+            }
+            a{
+                float:right;
+                line-height:80px;
+                font-size:20px;
+                margin-left:81px;
+                margin-right:17px;
+            }
+        }
+        h2{
+            line-height:38px;
+            background:#FCFCFC;
+            font-size:12px;
+            margin-left:36px;
+        }
+    }
+    .box_res{
+        margin:20px 0px;
+        line-height:50px;
+        font-size:12px;
+        color:#666;
+        background:#F3F3F3;
+        box-shadow:0px 3px 3px 2px #ccc;
+        li{
+            padding:0 12px;
+        }
+        button{
+            background:#D62233;
+            color:#fff;
+            font-weight:bold;
+            font-size:20px;
+            height: 50px;
+            width: 120px;
+            margin-left:10px;
+        }
+        span{
+            font-size:16px;
+            color:#D62233;
+            font-weight:bold;
+        }
+    }
+}

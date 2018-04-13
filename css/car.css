@@ -1,0 +1,145 @@
+#car {
+  border-top: 1px solid #ddd;
+}
+
+#car .box_top {
+  border-bottom: 1px solid #ddd;
+}
+
+#car .box_top h1 {
+  color: #333;
+  border-bottom: 2px solid #333;
+  float: left;
+  padding-top: 27px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#car .box_top h1 span {
+  color: #E9133C;
+}
+
+#car .box_top p {
+  line-height: 50px;
+  float: right;
+  font-size: 12px;
+}
+
+#car .box_top p select {
+  width: 144px;
+  height: 26px;
+  margin-left: 12px;
+  font-size: 12px;
+}
+
+#car .box_che {
+  line-height: 50px;
+  font-size: 12px;
+  color: #333;
+  padding-left: 14px;
+  border-bottom: 1px solid #ddd;
+}
+
+#car .box_che li {
+  margin-right: 82px;
+}
+
+#car .box_main {
+  border-bottom: 1px solid #ddd;
+}
+
+#car .box_main ul {
+  padding-right: 30px;
+}
+
+#car .box_main li {
+  height: 82px;
+  padding: 14px 40px;
+  background: #FFFAF1;
+  border-bottom: 1px dashed #ccc;
+}
+
+#car .box_main li img {
+  height: 80px;
+  width: 80px;
+  border: 1px solid #ddd;
+  float: left;
+}
+
+#car .box_main li p {
+  width: 200px;
+  font-size: 12px;
+  float: left;
+  margin-left: 10px;
+  text-indent: 2em;
+  color: #333;
+}
+
+#car .box_main li span {
+  float: right;
+  line-height: 80px;
+  color: #000;
+  font-size: 12px;
+}
+
+#car .box_main li input {
+  float: right;
+  border: 1px solid #ddd;
+  height: 22px;
+  width: 70px;
+  margin-top: 28px;
+  margin-left: 66px;
+}
+
+#car .box_main li i {
+  float: right;
+  line-height: 80px;
+  color: #D62233;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 45px;
+}
+
+#car .box_main li a {
+  float: right;
+  line-height: 80px;
+  font-size: 20px;
+  margin-left: 81px;
+  margin-right: 17px;
+}
+
+#car .box_main h2 {
+  line-height: 38px;
+  background: #FCFCFC;
+  font-size: 12px;
+  margin-left: 36px;
+}
+
+#car .box_res {
+  margin: 20px 0px;
+  line-height: 50px;
+  font-size: 12px;
+  color: #666;
+  background: #F3F3F3;
+  box-shadow: 0px 3px 3px 2px #ccc;
+}
+
+#car .box_res li {
+  padding: 0 12px;
+}
+
+#car .box_res button {
+  background: #D62233;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  height: 50px;
+  width: 120px;
+  margin-left: 10px;
+}
+
+#car .box_res span {
+  font-size: 16px;
+  color: #D62233;
+  font-weight: bold;
+}
