@@ -5,10 +5,6 @@
   position: absolute;
 }
 
-#banner .container {
-  width: 100%;
-}
-
 #banner .focus img {
   display: block;
   width: 1280px;
@@ -190,10 +186,6 @@
   color: #FF3D3D;
 }
 
-#goodlist {
-  background: #ccc;
-}
-
 #goodlist .boxtop {
   padding: 14px 10px;
   border-top: 3px solid #987144;
@@ -327,7 +319,6 @@
 }
 
 #goodlist .list ul {
-  background: #ccc;
   padding-left: 50px;
 }
 

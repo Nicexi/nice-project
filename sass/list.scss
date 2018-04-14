@@ -1,5 +1,4 @@
 #banner ul{list-style: none;padding:0;margin:0;position:absolute;}
-#banner .container{width: 100%;}
 #banner .focus img{display: block;width: 1280px;height: 440px;}
 #banner .focus{position:relative;width:1280px;height:422px;overflow:hidden;}
 #banner .focus .page{position:absolute;right:0;bottom:0;padding:10px;}
@@ -134,7 +133,6 @@
     }
 }
 #goodlist{
-    background:#ccc;
     .boxtop{
         padding:14px 10px;
         border-top:3px solid #987144;
@@ -248,7 +246,6 @@
     .list{
         background: #fff;
         ul{
-            background:#ccc;
             padding-left:50px;
             li{
                 border:1px solid #ddd;
