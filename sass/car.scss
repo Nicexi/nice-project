@@ -122,3 +122,33 @@
         }
     }
 }
+#links{
+        height:200px;
+        .links_info{
+            width: 90px;
+            margin:16px 90px 0 0;
+            dl{
+                line-height:2em;
+                dt{
+                    font-size:15px;
+                    font-weight:bold;
+                }
+                dd{
+                    font-size:12px;
+                    line-height:2em;
+                    color:#3e3e3e;
+                }
+            }
+        }
+        .links_w{
+            margin-top:16px;
+            text-align:center;
+            width: 128px;
+            p{
+                font-size:12px;
+                font-weight:bold;
+                color:#111111;
+                line-height: 2em;
+            }
+        }
+    }

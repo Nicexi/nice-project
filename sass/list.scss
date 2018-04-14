@@ -1,3 +1,10 @@
+#banner ul{list-style: none;padding:0;margin:0;position:absolute;}
+#banner .container{width: 100%;}
+#banner .focus img{display: block;width: 1280px;height: 440px;}
+#banner .focus{position:relative;width:1280px;height:422px;overflow:hidden;}
+#banner .focus .page{position:absolute;right:0;bottom:0;padding:10px;}
+#banner .focus .page span{display:inline-block;margin:0 5px;width:30px;height:30px;line-height:30px;background-color:rgba(0,0,0,.6);text-align:center;color:#fff;border-radius: 50%;box-shadow:0 0 10px rgba(0,0,0,.5);}
+#banner .focus .page span.active{background-color: rgba(255,0,0,.8);}
 #nav{
     .container{
         position:relative;
@@ -127,6 +134,7 @@
     }
 }
 #goodlist{
+    background:#ccc;
     .boxtop{
         padding:14px 10px;
         border-top:3px solid #987144;
@@ -155,6 +163,7 @@
             float:right;
             color:#666;
             font-size:12px;
+            line-height:26px;
         }
     }
     .boxsort{
@@ -237,41 +246,59 @@
         }
     }
     .list{
-        padding-bottom:90px;
+        background: #fff;
         ul{
+            background:#ccc;
+            padding-left:50px;
             li{
                 border:1px solid #ddd;
                 height: 294px;
-                width: 227px;
+                width: 253px;
+                height: 440px;
                 float:left;
-                margin:4px;
+                margin:10px;
+                background: #fff;
                 &:hover{
                     border-color:#D90000;
-                }
+                }   
                 a{
                     display:block;
-                    width: 227px;
-                    height: 224px;
+                    width: 253px;
+                    height: 253px;
                 }
                 h1{
                     color:#E9133C;
                     font-size:18px;
                     font-weight:bold;
-                    padding-left:16px;
+                    padding:10px 15px;
+                    border-top:1px solid #ccc;
+                    border-bottom:1px solid #ccc;
                 }
                 h2{
                     font-size:14px;
                     color:#333;
                     padding-left:16px;
+                    height: 32px;
+                    line-height:32px;
                 }
-                h3{
-                    font-size:14px;
-                    color:#FFB77E;
-                    padding-left:16px;
+                img{
+                    width: 253px;
+                    height: 253px;
+                }
+                button{
+                    width: 224px;
+                    text-align:center;
+                    padding:2px 0;
+                    font-size:16px;
+                    background:#ec3e7d;
+                    color:#fff;
+                    padding:10px 15px;
+                    margin:30px 0 0 12px;
                 }
             }
         }
     }
+    #page{margin-left:55px;}
     #page span{display:inline-block;margin:5px;width:40px;line-height:1.8;text-align: center;background-color:#dfdfdf;color:#666;}
-    #page span.active{background-color:#fc0;color:#fff;}
+    #page span.active{background-color:red;color:#fff;}
 }

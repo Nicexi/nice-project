@@ -1,3 +1,51 @@
+#banner ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+}
+
+#banner .container {
+  width: 100%;
+}
+
+#banner .focus img {
+  display: block;
+  width: 1280px;
+  height: 440px;
+}
+
+#banner .focus {
+  position: relative;
+  width: 1280px;
+  height: 422px;
+  overflow: hidden;
+}
+
+#banner .focus .page {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+}
+
+#banner .focus .page span {
+  display: inline-block;
+  margin: 0 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#banner .focus .page span.active {
+  background-color: rgba(255, 0, 0, 0.8);
+}
+
 #nav .container {
   position: relative;
 }
@@ -142,6 +190,10 @@
   color: #FF3D3D;
 }
 
+#goodlist {
+  background: #ccc;
+}
+
 #goodlist .boxtop {
   padding: 14px 10px;
   border-top: 3px solid #987144;
@@ -176,6 +228,7 @@
   float: right;
   color: #666;
   font-size: 12px;
+  line-height: 26px;
 }
 
 #goodlist .boxsort {
@@ -270,15 +323,22 @@
 }
 
 #goodlist .list {
-  padding-bottom: 90px;
+  background: #fff;
+}
+
+#goodlist .list ul {
+  background: #ccc;
+  padding-left: 50px;
 }
 
 #goodlist .list ul li {
   border: 1px solid #ddd;
   height: 294px;
-  width: 227px;
+  width: 253px;
+  height: 440px;
   float: left;
-  margin: 4px;
+  margin: 10px;
+  background: #fff;
 }
 
 #goodlist .list ul li:hover {
@@ -287,27 +347,45 @@
 
 #goodlist .list ul li a {
   display: block;
-  width: 227px;
-  height: 224px;
+  width: 253px;
+  height: 253px;
 }
 
 #goodlist .list ul li h1 {
   color: #E9133C;
   font-size: 18px;
   font-weight: bold;
-  padding-left: 16px;
+  padding: 10px 15px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
 
 #goodlist .list ul li h2 {
   font-size: 14px;
   color: #333;
   padding-left: 16px;
+  height: 32px;
+  line-height: 32px;
 }
 
-#goodlist .list ul li h3 {
-  font-size: 14px;
-  color: #FFB77E;
-  padding-left: 16px;
+#goodlist .list ul li img {
+  width: 253px;
+  height: 253px;
+}
+
+#goodlist .list ul li button {
+  width: 224px;
+  text-align: center;
+  padding: 2px 0;
+  font-size: 16px;
+  background: #ec3e7d;
+  color: #fff;
+  padding: 10px 15px;
+  margin: 30px 0 0 12px;
+}
+
+#goodlist #page {
+  margin-left: 55px;
 }
 
 #goodlist #page span {
@@ -321,6 +399,6 @@
 }
 
 #goodlist #page span.active {
-  background-color: #fc0;
+  background-color: red;
   color: #fff;
 }

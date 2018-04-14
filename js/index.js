@@ -72,28 +72,6 @@ require(['config'],function(){
         }
 
 
-            //Ajax数据生成
-            // let xhr = new XMLHttpRequest();
-            // let arr_state = [200,304];
-            // let dl = document.querySelector('#bestgood')
-            // xhr.onload = function(){
-            //     if(arr_state.indexOf(xhr.status)>=0){
-            //         let res =JSON.parse(xhr.responseText);
-            //         dl.innerHTML=res.map(function(items,idx){
-            //             return`
-            //                 <dd class=dd${idx+1}>
-            //                 <a href="html/list.html"><img src=${items.imgurl}></img></a>
-            //                     <p>${items.name}</p>
-            //                     <h2>￥${items.sale}</h2>
-            //                     <h3>参考价:￥${items.price}</h3>
-            //                 </dd>` 
-            //         }).join('');
-            //     }
-            // }
-            // xhr.open('get','api/data/bestgoods.json',true);
-            // xhr.send();
-
-
         //吸顶效果
         var search = document.querySelector('.header_search');
         

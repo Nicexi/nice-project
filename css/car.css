@@ -143,3 +143,40 @@
   color: #D62233;
   font-weight: bold;
 }
+
+#links {
+  height: 200px;
+}
+
+#links .links_info {
+  width: 90px;
+  margin: 16px 90px 0 0;
+}
+
+#links .links_info dl {
+  line-height: 2em;
+}
+
+#links .links_info dl dt {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#links .links_info dl dd {
+  font-size: 12px;
+  line-height: 2em;
+  color: #3e3e3e;
+}
+
+#links .links_w {
+  margin-top: 16px;
+  text-align: center;
+  width: 128px;
+}
+
+#links .links_w p {
+  font-size: 12px;
+  font-weight: bold;
+  color: #111111;
+  line-height: 2em;
+}

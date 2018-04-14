@@ -3,8 +3,9 @@ require(['config'],function(){
     require(['jquery','common'],function($){
         jQuery(function($){
         //插入头尾
-         $('#pageheader').load('header.html');
-         $('#pagefooter').load('footer.html');
+        $('#pageheader').load('header.html');
+        $('#pagefooter').load('footer.html');
+
         //分页加载
             var datalist = document.querySelector('#datalist');
             var page = document.querySelector('#page');
@@ -18,7 +19,6 @@ require(['config'],function(){
             xhr.onload = ()=>{
                 if(arr_status.indexOf(xhr.status)!=-1){
                     let res = JSON.parse(xhr.responseText);
-                    console.log(res);
                     var list_ul = document.querySelector('#list_ul');
 
                     //点击价格从小到大排序
@@ -47,7 +47,7 @@ require(['config'],function(){
                                 </a>
                                 <h1>￥${items.price}</h1>
                                 <h2>${items.name}</h2>
-                                <button>加入购物车</button>
+                                <button>立即购买</button>
                             </li>
                         `
                         }).join('');
