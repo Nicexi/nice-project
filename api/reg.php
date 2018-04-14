@@ -11,7 +11,7 @@
 
     if($data->num_rows == 0){
         // 密码md5加密
-        // $password = md5($password);
+        $password = md5($password);
         
         // 写入数据sql语句
         $sql = "insert into user(username,password) values('$username','$password')";

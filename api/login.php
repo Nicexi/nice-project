@@ -7,7 +7,7 @@
     $password = isset($_GET['password']) ? $_GET['password'] : '';
 
     // 密码md5加密
-    // $password = md5($password);
+    $password = md5($password);
 
     $sql = "select * from user where username='$username' and password='$password'";
 
